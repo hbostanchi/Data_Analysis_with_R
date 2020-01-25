@@ -47,6 +47,12 @@ Create a new RScript in your R source pane and save it to your active directory.
 Download the MechaCar mpg datasetPreview the document and place it in your active directory for your R session.
 Using multiple linear regression, design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset. Create a separate text file called MechaCarWriteUp.txt. In the text file, provide a small writeup of your interpretation of the multiple linear regression results. Be sure to include the following details:
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+by using the calculated p-value and r-squared value, we have determined that there is a significant relationship between mpg and vehicle_length, as well as, mpg and ground_clearance. 
+![1]()
+![2]()
+so Vehicle.weight,Spoiler.Angle and AWD coeficents has no significant linear relationship, the dependent value is determined by random chance and error.  I decided to remove non significant coeficent and run a regression with this two variables:
+lm(formula = mpg ~ vehicle.length + ground.clearance, data = MechaCar_mpg) 
+![3]()
 Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 Suspension Coil Summary
