@@ -48,11 +48,15 @@ Download the MechaCar mpg datasetPreview the document and place it in your activ
 Using multiple linear regression, design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset. Create a separate text file called MechaCarWriteUp.txt. In the text file, provide a small writeup of your interpretation of the multiple linear regression results. Be sure to include the following details:
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 by using the calculated p-value and r-squared value, we have determined that there is a significant relationship between mpg and vehicle_length, as well as, mpg and ground_clearance. 
+
 ![1](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/Rplot01.png)
 ![2](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/Rplot02.png)
+
 so Vehicle.weight,Spoiler.Angle and AWD coeficents has no significant linear relationship, the dependent value is determined by random chance and error.  I decided to remove non significant coeficent and run a regression with this two variables:
 lm(formula = mpg ~ vehicle.length + ground.clearance, data = MechaCar_mpg) 
+
 ![3](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/3.png)
+
 Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 Suspension Coil Summary
@@ -64,7 +68,9 @@ Mean
 Median
 Variance
 Standard deviation
+
 ![4](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/4.png)
+
 Using the same MechaCarWriteUp.txt text file, provide a short write-up of your interpretation and findings for the suspension coil summary statistics. Be sure to include the following details:
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
 ### Suspension Coil T-Test
