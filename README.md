@@ -77,8 +77,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 Using the same suspension coil data and the MechaCarChallenge.RScript file, determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch. (Hint: Refer to the t-test section of this module to determine which statistical test to use.)
 In the MechaCarWriteUp.txt text file, provide a small writeup of your interpretation and findings for the t-test results.
 
-![5]()
-![6]()
+![5](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/5.png)
+![6](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/6.png)
 
 
 ### Design Your Own Study
