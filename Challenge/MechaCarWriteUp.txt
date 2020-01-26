@@ -56,4 +56,4 @@ Ha: MechaCar has more Horsepower
 
 Knowing what test should be used, what data should be collected? Hint: Look at the cheat sheetPreview the document for required variables.
 The data is the Horsepower for all the cars but Mechacar, that data is continoues as the horsepower is continues and availble to public.
-The two-sample t-test will be used to compare two samples from a single population dataset. We would perform a two-sample t-test on each assumed comparable vehicle. MechaCar and other cars data.
+The two-sample t-test will be used to compare two samples from a single population dataset. We would perform a two-sample t-test on each assumed comparable vehicle. so the t test will determine if the Horsepower results are statistically different from the mean population of the Mechacar data.
