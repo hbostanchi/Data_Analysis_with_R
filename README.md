@@ -73,9 +73,15 @@ Standard deviation
 
 Using the same MechaCarWriteUp.txt text file, provide a short write-up of your interpretation and findings for the suspension coil summary statistics. Be sure to include the following details:
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Our coil_summary_table shows that the current manufacturing data meets this design specification with a variance of 62.29356.
+
 ### Suspension Coil T-Test
 Using the same suspension coil data and the MechaCarChallenge.RScript file, determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch. (Hint: Refer to the t-test section of this module to determine which statistical test to use.)
 In the MechaCarWriteUp.txt text file, provide a small writeup of your interpretation and findings for the t-test results.
+Using the same suspension coil data and the MechaCarChallenge.RScript file, We determined that the suspension 
+Based on a one sample t-test comparing the sample means of the PSI ,the p value is not statistically significant.
+We can say that two means are statistically similar.
+
 
 ![5](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/5.png)
 ![6](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/6.png)
@@ -84,9 +90,16 @@ In the MechaCarWriteUp.txt text file, provide a small writeup of your interpreta
 ### Design Your Own Study
 Upper management is looking for your expertise and wants you to design a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market. In the MechaCarWriteUp.txt text file, write a short description of a statistical study that can quantify how the MechaCar outperforms the competition. In your study design, be sure to write about the following considerations:
 
-Think critically about what metrics you would think would be of interest to a consumer (cost, fuel efficiency, color options, etc.).
-Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
+.Horsepower is a unit of power used to measure the forcefulness of a vehicle's engine. The total number of miles your vehicle can go during its lifespan is also determined using horsepower. Essentially, the horsepower tells the total running capacity of a vehicle. A single unit of horsepower is equivalent to 33,000 lb.
+Horsepower is a unit that is unicversal to the engine of the cars even if they are hybrid or electrics.
+
+.Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
+
+H0:MechaCar has same or less Horsepower than other
+Ha; MechaCar has more Horsepower 
+
 Knowing what test should be used, what data should be collected? Hint: Look at the cheat sheetPreview the document for required variables.
+The data is the Horsepower for all the cars but Mechacar, that data is continoues as the horsepower is continues and availble to public.
 
 
 
