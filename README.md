@@ -1,4 +1,4 @@
-# R_Analysis
+# MechaCar
 
 ## Module Overview
 In R-Analysis, we applied our understanding of statistics and hypothesis testing to analyze a series of datasets from the automotive industry. Our analysis includes visualizations, statistical tests, and interpretation of the results. All of our statistical analysis and visualizations are written in the R programming language.
