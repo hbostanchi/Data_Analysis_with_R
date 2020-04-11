@@ -49,6 +49,8 @@ Using multiple linear regression, design a linear model that predicts the mpg of
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 by using the calculated p-value and r-squared value, we have determined that there is a significant relationship between mpg and vehicle_length, as well as, mpg and ground_clearance. 
 
+## Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.
+
 ![1](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/Rplot01.png)
 ![2](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/Rplot02.png)
 
