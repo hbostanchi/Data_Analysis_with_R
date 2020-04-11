@@ -5,20 +5,20 @@ In R-Analysis, we applied our understanding of statistics and hypothesis testing
 Throughout the module, we extract, transform, and load (ETL) data; visualize the data; and analyze the data using R. Additionally, we learned a variety of statistical tests, their real-world application in data science, and their implementation in R.
 
 ## Sources:
-•Software: R, RStudio, Rlibraries such as Tidyverse
-•Data Source: demo.csv, demo.json, demo2.csv, mpg_modified, used_car_data, Vehicle_Data, MechaCar_mpg.csv, Suspension_coil.csv
+- •Software: R, RStudio, Rlibraries such as Tidyverse
+- •Data Source: demo.csv, demo.json, demo2.csv, mpg_modified, used_car_data, Vehicle_Data, MechaCar_mpg.csv, Suspension_coil.csv
 
 ## Objectives:
-•Load, clean up, and reshape datasets using tidyverse in R.
-•Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.
-•Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.
-•Plot and identify distribution characteristics of a given dataset.
-•Formulate null and alternative hypothesis tests for a given data problem.
-•Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.
-•Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.
-•Implement and evaluate a chi-squared test for a given dataset.
-•Identify key characteristics of A/B and A/A testing.
-•Determine the most appropriate statistical test for a given hypothesis and dataset.
++ •Load, clean up, and reshape datasets using tidyverse in R.
++ •Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.
++ •Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.
++ •Plot and identify distribution characteristics of a given dataset.
++ •Formulate null and alternative hypothesis tests for a given data problem.
++ •Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.
++ •Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.
++ •Implement and evaluate a chi-squared test for a given dataset.
++ •Identify key characteristics of A/B and A/A testing.
++ •Determine the most appropriate statistical test for a given hypothesis and dataset.
 
 
 ## Benefits of R
@@ -66,10 +66,10 @@ Download the suspension coil testPreview the document result dataset and place i
 In the same MechaCarChallenge.RScript file, create a summary statistics table for the 
 ### suspension coil’s pounds-per-inch continuous variable.
 Be sure to include the following metrics:
-Mean
-Median
-Variance
-Standard deviation
+- Mean
+- Median
+- Variance
+- Standard deviation
 
 ![4](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/4.png)
 
@@ -92,10 +92,10 @@ We can say that two means are statistically similar.
 ### Design Your Own Study
 Upper management is looking for your expertise and wants you to design a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market. In the MechaCarWriteUp.txt text file, write a short description of a statistical study that can quantify how the MechaCar outperforms the competition. In your study design, be sure to write about the following considerations:
 
-.Horsepower is a unit of power used to measure the forcefulness of a vehicle's engine. The total number of miles your vehicle can go during its lifespan is also determined using horsepower. Essentially, the horsepower tells the total running capacity of a vehicle. A single unit of horsepower is equivalent to 33,000 lb.
++ Horsepower is a unit of power used to measure the forcefulness of a vehicle's engine. The total number of miles your vehicle can go during its lifespan is also determined using horsepower. Essentially, the horsepower tells the total running capacity of a vehicle. A single unit of horsepower is equivalent to 33,000 lb.
 Horsepower is a unit that is unicversal to the engine of the cars even if they are hybrid or electrics.
 
-.Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
++ Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
 
 H0:MechaCar has same or less Horsepower than other
 Ha; MechaCar has more Horsepower 
