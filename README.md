@@ -5,7 +5,7 @@ In R-Analysis, we applied our understanding of statistics and hypothesis testing
 Throughout the module, we extract, transform, and load (ETL) data; visualize the data; and analyze the data using R. Additionally, we learned a variety of statistical tests, their real-world application in data science, and their implementation in R.
 
 ## Sources:
-- Software: [R](https://www.r-project.org/), [RStudio](https://rstudio.com/), Rlibraries such as [Tidyverse](https://www.tidyverse.org/)
+- Software: [R](https://www.r-project.org/), [RStudio](https://rstudio.com/), R libraries such as [Tidyverse](https://www.tidyverse.org/)
 - Data Source:[MechaCar_mpg.csv](https://github.com/hbostanchi/Data_Analysis_with_R/blob/master/Challenge/MechaCar_mpg.csv), [Suspension_coil.csv](https://github.com/hbostanchi/Data_Analysis_with_R/blob/master/Challenge/Suspension_Coil.csv)
 
 ## Objectives:
@@ -27,21 +27,21 @@ R is a versatile and extensible programming language with many benefits. One of 
 Another benefit to using R is that the R programming language was specifically designed for data analysis. This means that the process of loading in a dataset, visualizing the data, and performing statistical tests is straightforward and easy to interpret. In fact, many of the statistical tests in Python have been directly ported from R due to how well they were implemented. In addition to the native statistical functions, there are many other useful data transformation and modelling libraries, such as the tidyverse package, that simplify the process of ETL and visualizations.
 
 
-## Challenge Background
+## Project Background
 From the upper management team, Jeremy received two datasets:
 
 The results of an mpg testing dataset of 50 potential prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were collected for each vehicle.
 MechaCar suspension coil test results from multiple production lots. In this dataset, the weight capacity of multiple suspension coils were tested to determine if the manufacturing process is consistent across lots.
 By combining his understanding of R and statistics with the manufacturing datasets provided by the upper management, Jeremy should have all the materials he needs to generate a robust technical report. Technical reports such as the one Jeremy will design are common in product development and are used to justify design choices using quantitative and qualitative reasoning.
 
-## Challenge Objectives
+## Project Objectives
 The goals of this challenge are for you to complete the following:
 
 Design and interpret a multiple linear regression analysis to identify variables of interest.
 Calculate summary statistics for quantitative variables.
 Perform a t-test in R and provide interpretation of results.
 Design your own statistical study to compare vehicle performance of two vehicles.
-## Challenge Instructions
+## Project Instructions
 ### MPG Regression
 Create a new RScript in your R source pane and save it to your active directory. Name this new RScript file MechaCarChallenge.RScript. (Hint: Create a new RScript by going to the File menu. Select “New File” followed by “RScript.” Or you can click the icon in the top-left corner of the RStudio window. Note that the icon looks like a white square with a plus sign in the top left corner.)
 Download the MechaCar mpg datasetPreview the document and place it in your active directory for your R session.
