@@ -5,8 +5,8 @@ In R-Analysis, we applied our understanding of statistics and hypothesis testing
 Throughout the module, we extract, transform, and load (ETL) data; visualize the data; and analyze the data using R. Additionally, we learned a variety of statistical tests, their real-world application in data science, and their implementation in R.
 
 ## Sources:
-- Software: R, RStudio, Rlibraries such as Tidyverse
-- Data Source: demo.csv, demo.json, demo2.csv, mpg_modified, used_car_data, Vehicle_Data, [MechaCar_mpg.csv](https://github.com/hbostanchi/Data_Analysis_with_R/blob/master/Challenge/MechaCar_mpg.csv), [Suspension_coil.csv](https://github.com/hbostanchi/Data_Analysis_with_R/blob/master/Challenge/Suspension_Coil.csv)
+- Software: [R](https://www.r-project.org/), [RStudio](https://rstudio.com/), Rlibraries such as [Tidyverse](https://www.tidyverse.org/)
+- Data Source:[MechaCar_mpg.csv](https://github.com/hbostanchi/Data_Analysis_with_R/blob/master/Challenge/MechaCar_mpg.csv), [Suspension_coil.csv](https://github.com/hbostanchi/Data_Analysis_with_R/blob/master/Challenge/Suspension_Coil.csv)
 
 ## Objectives:
 + Load, clean up, and reshape datasets using tidyverse in R.
