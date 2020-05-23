@@ -89,19 +89,6 @@ We can say that two means are statistically similar.
 ![6](https://github.com/hbostanchi/R_Analysis/blob/master/Challenge/png/6.png)
 
 
-### Design Your Own Study
-Upper management is looking for your expertise and wants you to design a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market. In the MechaCarWriteUp.txt text file, write a short description of a statistical study that can quantify how the MechaCar outperforms the competition. In your study design, be sure to write about the following considerations:
-
-+ Horsepower is a unit of power used to measure the forcefulness of a vehicle's engine. The total number of miles your vehicle can go during its lifespan is also determined using horsepower. Essentially, the horsepower tells the total running capacity of a vehicle. A single unit of horsepower is equivalent to 33,000 lb.
-Horsepower is a unit that is unicversal to the engine of the cars even if they are hybrid or electrics.
-
-+ Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
-
-H0:MechaCar has same or less Horsepower than other
-Ha; MechaCar has more Horsepower 
-
-Knowing what test should be used, what data should be collected? Hint: Look at the cheat sheetPreview the document for required variables.
-The data is the Horsepower for all the cars but Mechacar, that data is continoues as the horsepower is continues and availble to public.
 
 
 
