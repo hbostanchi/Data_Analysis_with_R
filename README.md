@@ -6,7 +6,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 
 ## Sources:
 - Software: R, RStudio, Rlibraries such as Tidyverse
-- Data Source: demo.csv, demo.json, demo2.csv, mpg_modified, used_car_data, Vehicle_Data, MechaCar_mpg.csv, Suspension_coil.csv
+- Data Source: demo.csv, demo.json, demo2.csv, mpg_modified, used_car_data, Vehicle_Data, [MechaCar_mpg.csv](https://github.com/hbostanchi/Data_Analysis_with_R/blob/master/Challenge/MechaCar_mpg.csv), [Suspension_coil.csv](https://github.com/hbostanchi/Data_Analysis_with_R/blob/master/Challenge/Suspension_Coil.csv)
 
 ## Objectives:
 + Load, clean up, and reshape datasets using tidyverse in R.
